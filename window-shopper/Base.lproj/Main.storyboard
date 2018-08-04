@@ -28,7 +28,7 @@
                                     <constraint firstAttribute="width" constant="60" id="qpq-NU-TWE"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Af-Rj-hCh" customClass="CurrencyTxtField" customModule="window_shopper" customModuleProvider="target">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Your Hourly Wage" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Af-Rj-hCh" customClass="CurrencyTxtField" customModule="window_shopper" customModuleProvider="target">
                                 <rect key="frame" x="30" y="142" width="317" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
