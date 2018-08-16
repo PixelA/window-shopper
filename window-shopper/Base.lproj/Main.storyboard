@@ -33,20 +33,33 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="u8q-dR-4mc"/>
                                 </constraints>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.15535132289079745" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Item Price" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xOc-st-Vb3" customClass="CurrencyTxtField" customModule="window_shopper" customModuleProvider="target">
+                                <rect key="frame" x="25" y="215" width="325" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Rjw-ky-SnV"/>
+                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" enablesReturnKeyAutomatically="YES"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="FRG-12-unq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="0vU-jX-lx0"/>
+                            <constraint firstItem="xOc-st-Vb3" firstAttribute="height" secondItem="1Af-Rj-hCh" secondAttribute="height" id="2sw-gd-aZ2"/>
                             <constraint firstItem="1Af-Rj-hCh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="AJD-ou-Tv5"/>
+                            <constraint firstItem="xOc-st-Vb3" firstAttribute="trailing" secondItem="1Af-Rj-hCh" secondAttribute="trailing" id="B9a-LW-gXn"/>
                             <constraint firstItem="DYj-wb-O1w" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="GFf-zJ-im7"/>
                             <constraint firstItem="DYj-wb-O1w" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="SMt-WM-ZVC"/>
                             <constraint firstItem="DYj-wb-O1w" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bvR-AU-pFS"/>
+                            <constraint firstItem="xOc-st-Vb3" firstAttribute="leading" secondItem="1Af-Rj-hCh" secondAttribute="leading" id="eCL-3A-Jcx"/>
                             <constraint firstItem="FRG-12-unq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hgH-pT-o3E"/>
                             <constraint firstItem="1Af-Rj-hCh" firstAttribute="top" secondItem="FRG-12-unq" secondAttribute="bottom" constant="35" id="kwC-m9-O6l"/>
+                            <constraint firstItem="xOc-st-Vb3" firstAttribute="top" secondItem="1Af-Rj-hCh" secondAttribute="bottom" constant="25" id="vy1-qH-BBK"/>
                             <constraint firstItem="DYj-wb-O1w" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="vzW-Qu-cBA"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1Af-Rj-hCh" secondAttribute="trailing" constant="25" id="xsq-wa-zca"/>
                         </constraints>

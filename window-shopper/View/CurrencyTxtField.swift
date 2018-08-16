@@ -22,7 +22,7 @@ class CurrencyTxtField: UITextField {
         
     }
     func customizeView() {
-        backgroundColor = #colorLiteral(red: 0.9999960065, green: 1, blue: 1, alpha: 0.25)
+        backgroundColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.6962950537)
         layer.cornerRadius = 5.0
         textAlignment = .center
         
